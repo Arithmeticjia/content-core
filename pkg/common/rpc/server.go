@@ -19,7 +19,6 @@ func (cal *Cal) Square(num int, result *Result) error {
 }
 
 // Main Func
-// hhh
 func main() {
 	rpc.Register(new(Cal))
 	rpc.HandleHTTP()
@@ -29,3 +28,5 @@ func main() {
 		log.Fatal("Error serving: ", err)
 	}
 }
+
+// hhh
