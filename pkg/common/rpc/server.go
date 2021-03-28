@@ -18,6 +18,7 @@ func (cal *Cal) Square(num int, result *Result) error {
 	return nil
 }
 
+// Main Func
 func main() {
 	rpc.Register(new(Cal))
 	rpc.HandleHTTP()
